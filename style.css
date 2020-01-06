@@ -114,7 +114,8 @@ input[type = "text"],input[type = "email"],textarea{
 .me-in-about-page{
   margin: auto;
   border-radius: 41%;
-  background: yellow;
+  min-width: 220px;
+  max-width: 400px;
 }
 
 .skills{
@@ -186,8 +187,8 @@ footer{
 }
 
 #sat{
-  left: 960px;
-  bottom: 1190px;
+  left: 1010px;
+  bottom: 1260px;
   width: 450px;
 }
 
