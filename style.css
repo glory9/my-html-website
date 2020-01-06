@@ -112,8 +112,7 @@ input[type = "text"],input[type = "email"],textarea{
 }
 
 .me-in-about-page{
-  margin: auto;
-  margin-top: 50px;
+  margin: 50px auto auto auto auto;
   border-radius: 41%;
 }
 
@@ -186,14 +185,14 @@ footer{
 }
 
 #sat{
-  left: 640px;
-  bottom: 1200px;
+  left: 900px;
+  bottom: 1180px;
   width: 450px;
 }
 
 .contact{
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 180px;
   text-align: center;
 }
 
