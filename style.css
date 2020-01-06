@@ -5,6 +5,10 @@ body{
   background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
 }
 
+.about{
+  margin-left: 120px;
+}
+
 nav{
   background-color: #120661;
   height: auto;
@@ -48,7 +52,7 @@ h1{
   text-transform: uppercase;
   margin: 200px 0px 0px 50px;
   font-family: "Playfair Display";
-  font-size: 150px;
+  font-size: 110px;
   color: #120661;
   animation-name: welcome;
   animation-duration: 10s;
@@ -178,7 +182,7 @@ footer{
 
 #coursera{
   left: 1170px;
-  bottom: 1470px;
+  bottom: 1800px;
 }
 
 #math{
@@ -188,32 +192,30 @@ footer{
 
 #sat{
   left: 1010px;
-  bottom: 1260px;
+  bottom: 1570px;
   width: 450px;
 }
 
 .contact{
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 550px;
   text-align: center;
 }
 
-#explore{
-  font-family: cursive;
-  color: #fff;
-  padding: 10px;
-  border-radius: 3px;;
-  margin: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  max-width: 420px;
+.link{
+  background: yellow;
+  padding: 1px;
+  border-radius: 5px;;
+  margin: 100px auto 200px auto;
   height: auto;
+  width: 50vw;
   font-size: 30px;
   background: linear-gradient(45deg, hsl(0, 85%, 40%), hsl(150, 75%, 60%));
   text-align: center;
   animation-name: anim;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  
 }
 
 #explore:hover{
@@ -225,9 +227,9 @@ footer{
     background: linear-gradient(90deg, hsl(0, 85%, 40%), hsl(150, 75%, 60%));;
   }
   50%{
-    background: linear-gradient(135deg, hsl(0, 85%, 40%), hsl(150, 75%, 60%));;
+    background: linear-gradient(135deg, hsl(150, 75%, 60%), hsl(0, 85%, 40%));;
   }
   75%{
-    background: linear-gradient(165deg, hsl(0, 85%, 40%), hsl(150, 75%, 60%));;
+    background: linear-gradient(165deg, hsl(150, 75%, 60%), hsl(0, 85%, 40%));;
   }
 }
