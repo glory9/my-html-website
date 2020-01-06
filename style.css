@@ -18,7 +18,7 @@ h1:hover {
   text-shadow: 1px 1px 10px hsl(0, 30%, 60%);
 }
 
-h1{
+/*h1{
   width: 150px;
   text-transform: uppercase;
   margin: 200px 0px 0px 50px;
@@ -28,7 +28,7 @@ h1{
   animation-name: welcome;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-}
+}*/
 
 @keyframes welcome{
   0%{
