@@ -219,7 +219,7 @@ footer{
   
 }
 
-#explore:hover{
+.link:hover{
   transform: scale(1.2);
 }
 
