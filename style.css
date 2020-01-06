@@ -11,7 +11,7 @@ nav{
   font-family: Ubuntu;
   position: fixed;
   width: 100%;
-  bottom: 683px;
+  bottom: 685px;
   z-index: 2;
 }
 
@@ -112,7 +112,7 @@ input[type = "text"],input[type = "email"],textarea{
 }
 
 .me-in-about-page{
-  margin: 50px auto auto auto auto;
+  margin: 70px auto auto auto;
   border-radius: 41%;
 }
 
@@ -185,14 +185,14 @@ footer{
 }
 
 #sat{
-  left: 900px;
-  bottom: 1180px;
+  left: 960px;
+  bottom: 1190px;
   width: 450px;
 }
 
 .contact{
   margin: 0 auto;
-  margin-top: 180px;
+  margin-top: 250px;
   text-align: center;
 }
 
