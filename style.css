@@ -6,6 +6,7 @@ body{
 }
 .intro{
   margin: 0px 0px 0px 50px;
+  border-radius:50%;
 }
 
 .skills:hover {
