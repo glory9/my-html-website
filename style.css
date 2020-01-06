@@ -112,8 +112,9 @@ input[type = "text"],input[type = "email"],textarea{
 }
 
 .me-in-about-page{
-  margin: 70px auto auto auto;
+  margin: auto;
   border-radius: 41%;
+  background: yellow;
 }
 
 .skills{
