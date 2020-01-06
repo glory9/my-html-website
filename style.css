@@ -7,7 +7,7 @@ body{
 .intro{
   margin: 0px 0px 0px 50px;
   border-radius:50%;
-  color: red;
+  background-color: red;
 }
 
 .skills:hover {
