@@ -114,7 +114,7 @@ input[type = "text"],input[type = "email"],textarea{
 
 .me-in-about-page{
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 41%;
 }
 
@@ -177,7 +177,7 @@ footer{
 }
 
 #coursera{
-  left: 1200px;
+  left: 1170px;
   bottom: 1470px;
 }
 
@@ -189,7 +189,7 @@ footer{
 #sat{
   left: 640px;
   bottom: 1200px;
-  height: 40px;
+  width: 450px;
 }
 
 .contact{
