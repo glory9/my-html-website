@@ -33,6 +33,7 @@ figure{
 .link:hover{
   background: hsl(179deg, 54%, 75%);
   border-radius: 12px;
+  transform: scale(1.05);
 }
 
 .about{
@@ -79,6 +80,10 @@ a{
   justify-content: center;
   grid-template-columns: auto auto;
   grid-column-gap: 20px;
+}
+
+.intro:hover{
+  transform: scale(1.1);
 }
 
 .skills:hover {
