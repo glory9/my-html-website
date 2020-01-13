@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+
+.about-page{
+  background: #ddd;
+  padding: 15px;
+}
+
+#tech{max-width: 100%;}
+
+figure{
+  display: block;
+  height: auto;
+  background: hsl(179deg, 54%, 75%);
+  padding: 10px 20px;
+}
+
+.link{
+  padding: 1px;
+  border-radius: 5px;;
+  margin: 100px auto 200px auto;
+  height: auto;
+  max-width: 50%;
+  font-size: 30px;
+}
+
+.link:hover{
+  background: hsl(179deg, 54%, 75%);
+  border-radius: 12px;
+}
+
+.about{
+  margin-left: 120px;
+  margin-top: -50px;
+}
+#about-box{
+  max-width: 55%;
+  color: white;
+  height: auto;
+  background: #a6a6a6;
+  padding: 15px;
+  box-shadow: 10px 5px 5px grey;
+  margin: 10px 0px 20px 100px;  
+  font-family: 'Ubuntu', monospace;
+  font-size: 20px;
+  border-radius: 13px;
+}
+
+nav{
+  background: transparent;
+  font-family: Ubuntu;
+  padding: 5px 40px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  width: 15%;
+}
+
+a{
+  color: Black;
+  font-family: cursive;
+}
+
+.intro{
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+
+.skills:hover {
+  transform: scale(1.1);
+}
+
+h1:hover {
+  text-shadow: 1px 1px 10px hsl(0, 30%, 60%);
+}
+
+h1{
+  max-width: 80%;
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 72px;
+  background: -webkit-linear-gradient(45deg, hsl(0, 85%, 40%), hsl(150, 75%, 60%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: anim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim{
+  50%{
+    background: -webkit-linear-gradient(45deg, hsl(150, 75%, 60%), hsl(0, 85%, 40%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+}
+
+h2{
+  font-family: 'Montserrat', cursive;
+  margin: 150px 0px 30px 100px;
+}
+
+
+input[type = "text"],input[type = "email"],textarea{
+  width:50%;
+  background-color: #f0f0f0;
+  color:#000;
+  border: 2px solid #707070;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 80px;
+}
+
+.submit_{
+  margin-left: 80px;
+}
+
+.me-in-about-page{
+  margin: 60px auto auto auto;
+  border-radius: 41%;
+  min-width: 220px;
+  max-width: 400px;
+}
+
+.skills{
+  background-color: hsl(0, 100%, 40%);
+  color: white;
+  width: 6vw;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  font-family: Ubuntu;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 9px 1px 9px hsl(150, 30%, 60%);
+  }
+
+.list-skills{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px 1px;
+  justify-items: center;
+  margin-top: 50px;
+}
+
+.fun{
+  border-radius: 20px;
+  width: 220px;
+  height: auto;
+  position: relative;
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  transform: rotate(8deg);
+  animation-name: trial;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  color: red;
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+@keyframes trial{
+  50% {
+    transform: rotate(-16deg);
+  }
+}
+
+footer{
+  background-color: hsl(179deg, 54%, 55%);;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Montserrat;
+}
+
+#fun-fact{
+  color: hsl(150, 60%, 40%);
+  transform: bold;
+}
+
+#coursera{
+  left: 1170px;
+  bottom: 1800px;
+}
+
+#math{
+  left: 40px;
+  bottom: 580px;
+}
+
+#sat{
+  left: 996px;
+  bottom: 1570px;
+  width: 450px;
+}
+
+.contact{
+  margin: 0 auto;
+  margin-top: 550px;
+  text-align: center;
+}
