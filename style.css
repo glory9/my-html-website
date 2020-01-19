@@ -82,8 +82,8 @@ a{
   grid-column-gap: 20px;
 }
 
-.intro:hover{
-  transform: scale(1.1);
+#intro-items:hover{
+  transform: scale(1.08);
 }
 
 .skills:hover {
